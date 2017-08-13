@@ -13,19 +13,24 @@
 <div class="container-fluid">
 	<br />	
 
-	<div class="dropdown">
-		<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">MENU <span class="caret"></span></button>		
-		<ul class="dropdown-menu">
-			<li class="dropdown-header">Links</li>
-			<li class="divider"></li>
-			<li class="active"><a href="#">HTML</a></li>	
-			<li class="disabled"><a href="#">CSS</a></li>	
-			<li><a href="#">JS</a></li>	
-			<li class="divider"></li>
-			<li><a href="#">About</a></li>
-		</ul>
+	<div class="panel-group">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a href="#collapse1" data-toggle="collapse">Collapsible</a>
+				</h4>	
+			</div>	
+			<div id="collapse1" class="panel-collapse collapse">
+				<ul class="list-group">
+					<li class="list-group-item">One</li>	
+					<li class="list-group-item">Two</li>	
+					<li class="list-group-item">Three</li>	
+				</ul>	
+				<div class="panel-footer">Footer</div>
+			</div>
+		</div>	
 	</div>
-	
+
 </div> <!-- /container -->
 
 
