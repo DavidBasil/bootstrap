@@ -11,43 +11,27 @@
 
 <div class="container-fluid">
 
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<!-- indicators -->	
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>	
-			<li data-target="#myCarousel" data-slide-to="1"></li>	
-			<li data-target="#myCarousel" data-slide-to="2"></li>	
-		</ol>
-		<div class="carousel-inner" style="height:600px"> <!-- style carousel-inner to set img height -->
-			<div class="item active">
-				<img src="http://i.dailymail.co.uk/i/pix/2015/02/25/260F00E100000578-2966974-image-a-23_1424852123049.jpg"/>	
-				<div class="carousel-caption">
-					<h3>New York snow</h3>	
-					<p>Manhattan winter time</p>
+	<!-- modal trgger -->
+	<button class="btn btn-info btn-lg" type="button" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+	<!-- modal -->
+	<div id="myModal" class="modal fade">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Modal Header</h4>
+				</div> <!-- /modal-header -->
+				<div class="modal-body">
+					<p>Some text in the modal</p>	
 				</div>
-			</div>	
-			<div class="item">
-				<img src="http://st.depositphotos.com/1729435/2354/i/950/depositphotos_23545785-Central-Park-New-York-City-winter.jpg" />	
-				<div class="carousel-caption">
-					<h3>Another capture</h3>	
-					<p>New York beatful snow</p>
+				<div class="modal-footer">
+					<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
 				</div>
-			</div>
-			<div class="item">
-				<img src="https://ssl.c.photoshelter.com/img-get2/I0000gMVOYl6EEKA/fit=1000x750/Rajs-080419-9013jrprint15x22CB-W.jpg" />	
-				<div class="carousel-caption">
-					<h3>New York Manhattan snow</h3>	
-					<p>Fine scenery!</p>
-				</div>
-			</div>
-		</div> <!-- /carousel-inner -->
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-		</a>
-	</div> <!-- /myCarousel -->
+			</div> <!-- /modal-content -->
+
+		</div> <!-- /modal-dialog -->	
+	</div> <!-- /#myModal -->
 
 </div> <!-- /container -->
 
