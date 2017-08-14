@@ -10,40 +10,34 @@
 <body>
 
 <div class="container-fluid">
-	<!-- media right -->
-	<div class="media">
-		<div class="media-left media-top">
-			<img src="https://www.w3schools.com/bootstrap/img_avatar1.png" style="width:60px" class="media-object" />	
-		</div>	<!-- /media-left -->	
-		<div class="media-body">
-			<h4 class="media-heading">Media Top</h4>	
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div> <!-- /media-heading -->
-	</div> <!-- /media -->
 
-	<!-- media middle -->
-	<div class="media">
-		<div class="media-left media-middle">
-			<img src="https://www.w3schools.com/bootstrap/img_avatar1.png" class="media-object" style="width:60px" />	
-		</div> <!-- /media-left -->	
-		<div class="media-body">
-			<h4 class="media-heading">Media Middle</h4>	
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div> <!-- /media-body -->
-	</div> <!-- /media -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- indicators -->	
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>	
+			<li data-target="#myCarousel" data-slide-to="1"></li>	
+			<li data-target="#myCarousel" data-slide-to="2"></li>	
+		</ol>
+		<div class="carousel-inner" style="height:600px"> <!-- style carousel-inner to set img height -->
+			<div class="item active">
+				<img src="http://i.dailymail.co.uk/i/pix/2015/02/25/260F00E100000578-2966974-image-a-23_1424852123049.jpg"/>	
+			</div>	
+			<div class="item">
+				<img src="http://st.depositphotos.com/1729435/2354/i/950/depositphotos_23545785-Central-Park-New-York-City-winter.jpg" />	
+			</div>
+			<div class="item">
+				<img src="https://ssl.c.photoshelter.com/img-get2/I0000gMVOYl6EEKA/fit=1000x750/Rajs-080419-9013jrprint15x22CB-W.jpg" />	
+			</div>
+		</div> <!-- /carousel-inner -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div> <!-- /myCarousel -->
 
-	<!-- media right -->
-	<div class="media">
-		<div class="media-left media-bottom">
-			<img src="https://www.w3schools.com/bootstrap/img_avatar1.png" class="media-object" style="width:60px" />	
-		</div>	<!-- /media-left -->	
-		<div class="media-body">
-			<h4 class="media-heading">Media bottom</h4>	
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-	</div> <!-- /media -->		
-
-</div>
+</div> <!-- /container -->
 
 
 
