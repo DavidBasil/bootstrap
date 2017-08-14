@@ -12,14 +12,9 @@
 <div class="container">
 	<br />
 	<br />
-	<br />
-	<a href="#" data-toggle="tooltip" title="You just hovered over me">Hover over me</a>
-	<br />
-	<a href="#" data-toggle="tooltip" title="west side!" data-placement="bottom">Hover over me</a>
-	<br />
-	<a href="#" data-toggle="tooltip" title="west side!" data-placement="left">Hover over me</a>
-	<br />
-	<a href="#" data-toggle="tooltip" title="west side!" data-placement="right">Hover over me</a>
+
+	<a href="#" title="dismissable popover" data-toggle="popover" data-trigger="hover" data-content="click anywhere in the document">Click me</a>
+
 
 </div> <!-- /container -->
 
@@ -28,6 +23,13 @@
 <!-- scripts -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="main.js"></script>
+<script>
+$(function(){
+
+	$('[data-toggle="popover"]').popover()
+
+})
+
+</script>
 </body>
 </html>
